@@ -1,6 +1,41 @@
 What is Pangolin {#mainpage}
 ====================================
 
+Just read THIS instruction below
+https://hackmd.io/s/rJ7Yv3oux#
+
+git clone https://github.com/mocapNCTU/Pangolin.git
+
+## PreInstalled ##
+sudo apt-get install libglew-dev
+
+sudo apt-get install cmake
+
+sudo apt-get install libboost-dev libboost-thread-dev libboost-filesystem-dev
+
+sudo apt-get install libpython2.7-dev
+
+## Template ##
+In folder ~/Pangolin/examples
+
+Compile with CMake
+
+for example:
+```shell=
+cd ~/Pangolin/examples/HelloPangolin
+
+mkdir build
+
+cd build
+
+cmake ..
+
+make
+
+```
+
+## Original Intro ##
+
 Pangolin is a lightweight portable rapid development library for managing OpenGL
 display / interaction and abstracting video input. At its heart is a simple
 OpenGl viewport manager which can help to modularise 3D visualisation without
